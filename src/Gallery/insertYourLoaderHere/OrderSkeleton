@@ -1,0 +1,23 @@
+import React from "react"
+import ContentLoader from "react-content-loader"
+
+const OrderSkeleton = () => (
+    <ContentLoader 
+    speed={5}
+    width={2400}
+    height={240}
+    viewBox="0 0 2400 240"
+    backgroundColor="#f3f3f3"
+    foregroundColor="#9e9e9e"
+  >
+    <rect x="17" y="110" rx="3" ry="3" width="154" height="19" /> 
+    <circle cx="72" cy="52" r="33" /> 
+    <rect x="465" y="60" rx="3" ry="3" width="121" height="35" /> 
+    <rect x="89" y="179" rx="3" ry="3" width="150" height="11" /> 
+    <rect x="-2" y="178" rx="3" ry="3" width="73" height="11" /> 
+    <rect x="210" y="215" rx="3" ry="3" width="240" height="22" /> 
+    <rect x="460" y="110" rx="3" ry="3" width="145" height="15" />
+  </ContentLoader>
+)
+
+export default OrderSkeleton
